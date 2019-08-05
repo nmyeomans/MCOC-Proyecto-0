@@ -19,4 +19,5 @@ Además, se realizó el cálculo de la raíz cuadrada en cada caso con el fin de
 
 Resultados
 ==============
+ttps://raw.githubusercontent.com/nmyeomans/MCOC-Proyecto-0/blob/master/loss-of-significace.PNG
 
