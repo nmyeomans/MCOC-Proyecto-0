@@ -21,7 +21,10 @@ Resultados
 ==============
 ![Results](loss-of-significance.PNG)
 
+Podemos ver que a medida que aummentan los bits a trabajar , el resultado es mas preciso, a continuacion se puede ver de mejor forma como varia el error de acuerdo a un valor especifico. 
+
 Output de la consola:
+
 Para el calculo del error se considera la siguiente formula :
 
 Error (%) = [|Valor flotante como array - Valor aleatorio|]/[ Valor aleatorio ] 
@@ -34,6 +37,7 @@ Error dtype=np.float32 es : 1.15397643724e-06 %
 
 Error dtype=np.float64 es : 0.0 %
 
+
 Para el valor aleatorio:  0.481974820401  con raiz cuadrada : 0.481974820401  se encuentran los siguientes errores:
 
 Error dtype=np.float16 es : 1.66135545075e-05 %
@@ -41,6 +45,7 @@ Error dtype=np.float16 es : 1.66135545075e-05 %
 Error dtype=np.float32 es : 5.76988217365e-07 %
 
 Error dtype=np.float64 es : 0.0 %
+
 
 Para el valor aleatorio:  0.599424726397  se encuentran los siguientes errores:
 
@@ -50,6 +55,7 @@ Error dtype=np.float32 es : 1.09880663472e-06 %
 
 Error dtype=np.float64 es : 0.0 %
 
+
 Para el valor aleatorio:  0.774225242676  con raiz cuadrada : 0.774225242676 se encuentran los siguientes errores:
 
 Error dtype=np.float16 es : 0.0154009650525 %
@@ -57,7 +63,8 @@ Error dtype=np.float16 es : 0.0154009650525 %
 Error dtype=np.float32 es : 5.4940332608e-07 %
 
 Error dtype=np.float64 es : 0.0 %
- 
+
+
 Para el valor aleatorio:  0.996235130635  se encuentran los siguientes errores:
 
 Error dtype=np.float16 es : 0.0141914926177 %
@@ -65,7 +72,8 @@ Error dtype=np.float16 es : 0.0141914926177 %
 Error dtype=np.float32 es : 1.58836844219e-07 %
 
 Error dtype=np.float64 es : 0.0 %
- 
+
+
 Para el valor aleatorio:  0.998115790194 con raiz cuadrada : 0.998115790194  se encuentran los siguientes errores:
 
 Error dtype=np.float16 es : 0.00709599807478 %
