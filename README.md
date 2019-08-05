@@ -10,12 +10,13 @@ A partir de los videos estudiados, podemos darnos cuenta de que la interpretaci�
 3.Arreglo con tipo de dato dtype=np.float64.
 
 Para cada uno de estos arreglos se evidencio la perdida de significación a partir del error que es calculado como:
+
 Error (%) = (|Valor flotante como array - Valor aleatorio|) /( Valor aleatorio )
+
 Además, se realizó el cálculo de la raíz cuadrada en cada caso con el fin de alterar los valores y ver su influencia en el error, comparándolos respecto al valor original obtenido a través del programa.
 
 
 
 Resultados
 ==============
-
 
