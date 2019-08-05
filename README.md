@@ -21,7 +21,7 @@ Resultados
 ==============
 ![Results](loss-of-significance.PNG)
 
-Podemos ver que a medida que aummentan los bits a trabajar , el resultado es mas preciso, a continuacion se puede ver de mejor forma como varia el error de acuerdo a un valor especifico. 
+Podemos ver que a medida que aumenta el arreglo a trabajar el resultado es más exacto, esto se debe a que los dijitos del número flotante son mayores, entonces,  su error disminuye considerablemente, a continuación se puede ver de mejor forma como varia el error de acuerdo a un valor específico. 
 
 Output de la consola:
 
