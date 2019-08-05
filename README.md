@@ -19,50 +19,39 @@ Además, se realizó el cálculo de la raíz cuadrada en cada caso con el fin de
 
 Resultados
 ==============
-[Results](loss-of-significance.PNG)
+![Results](loss-of-significance.PNG)
 
-Output de la consola
-
+Output de la consola:
 Para el calculo del error se considera la siguiente formula :
- Error (%) = [|Valor flotante como array - Valor aleatorio|]/[ Valor aleatorio ] 
+Error (%) = [|Valor flotante como array - Valor aleatorio|]/[ Valor aleatorio ] 
 
 Para el valor aleatorio:  0.232299727501  se encuentran los siguientes errores:
-
 Error dtype=np.float16 es : 3.32271117658e-05 %
 Error dtype=np.float32 es : 1.15397643724e-06 %
 Error dtype=np.float64 es : 0.0 %
 
- 
 Para el valor aleatorio:  0.481974820401  con raiz cuadrada : 0.481974820401  se encuentran los siguientes errores:
-
 Error dtype=np.float16 es : 1.66135545075e-05 %
 Error dtype=np.float32 es : 5.76988217365e-07 %
 Error dtype=np.float64 es : 0.0 %
 
- 
 Para el valor aleatorio:  0.599424726397  se encuentran los siguientes errores:
-
 Error dtype=np.float16 es : 0.0308043020023 %
 Error dtype=np.float32 es : 1.09880663472e-06 %
 Error dtype=np.float64 es : 0.0 %
 
- 
 Para el valor aleatorio:  0.774225242676  con raiz cuadrada : 0.774225242676  se encuentran los siguientes errores:
-
 Error dtype=np.float16 es : 0.0154009650525 %
 Error dtype=np.float32 es : 5.4940332608e-07 %
 Error dtype=np.float64 es : 0.0 %
 
  
 Para el valor aleatorio:  0.996235130635  se encuentran los siguientes errores:
-
 Error dtype=np.float16 es : 0.0141914926177 %
 Error dtype=np.float32 es : 1.58836844219e-07 %
 Error dtype=np.float64 es : 0.0 %
-
  
 Para el valor aleatorio:  0.998115790194  con raiz cuadrada : 0.998115790194  se encuentran los siguientes errores:
-
 Error dtype=np.float16 es : 0.00709599807478 %
 Error dtype=np.float32 es : 7.94184213969e-08 %
-Error dtype=np.float64 es : 0.0 %
+Error dtype=np.float64 es : 0.0 % .Recur
